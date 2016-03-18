@@ -23,7 +23,7 @@ A lightweight jQuery plugin to apply css styles and js scripts to a SVG which is
                 $("#cars").setSVGStyle(style);
                 //or
                 //apply css by stylesheet link
-                $("#cars").setSVGStyle(stylepath);
+                $("#cars").setSVGStyleLink(stylepath);
 
                 //get svg object, like a jquery object
                 var svg = $("#cars").getSVG();
@@ -34,3 +34,5 @@ A lightweight jQuery plugin to apply css styles and js scripts to a SVG which is
 	```
 
 ## Demo
+  - [test with embed css](http://jquery-svg.berneti.ir/tests/test-embed-css.html) 
+  - [test with linked css](http://jquery-svg.berneti.ir/tests/test-linked-css.html) 
