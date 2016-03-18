@@ -16,7 +16,7 @@
     <script src="../lib/jquery.min.js"></script>
     <script src="../dist/jquery.svg.es5.min.js"></script>
     <script>
-        $(document).ready(function () {
+     window.onload = function(){
             //get embed css
             var style = $("#embed-css").html();
             //apply css to the svg object
@@ -32,7 +32,7 @@
                 //use jquery functions to do some thing
                 svg.find("g path:first-child()").attr('fill', color);
             }, 1000);
-        });
+        };
         function getRandom(min, max) {
             return Math.floor(Math.random() * (max - min + 1)) + min;
         };

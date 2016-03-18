@@ -11,7 +11,7 @@
     <script src="../lib/jquery.min.js"></script>
     <script src="../dist/jquery.svg.es5.min.js"></script>
     <script>
-        $(document).ready(function () {
+     window.onload = function(){
             var style = $("embed-css").html();
             //apply css to the svg object with css link
             //***the path must be started from the svg file position
@@ -19,7 +19,7 @@
             setInterval(function () {
                 $("#cars").getSVG().find("g path:first-child()").attr('fill', '#' + getRandom(100000, 999999));
             }, 1000);
-        });
+        };
         function getRandom(min, max) {
             return Math.floor(Math.random() * (max - min + 1)) + min;
         };
