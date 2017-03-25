@@ -34,5 +34,5 @@ A lightweight jQuery plugin to apply css styles and js scripts to a SVG which is
 	```
 
 ## Demo
-  - [test with embed css](http://jquery-svg.berneti.ir/tests/test-embed-css.html) 
-  - [test with linked css](http://jquery-svg.berneti.ir/tests/test-linked-css.html) 
+  - [test with embed css](http://mberneti.github.io/jquery-svg/) 
+  - [test with linked css](http://mberneti.github.io/jquery-svg/test-linked-css.html) 
